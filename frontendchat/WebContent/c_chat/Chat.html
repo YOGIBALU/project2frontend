@@ -1,0 +1,21 @@
+<div class="container" ng-Controller="ChatController">
+<div class="imgs" style="height:250%;width:250%;"><img src="C:\Users\yogishoban\eclipse-workspace\frontendchat\WebContent\getImages\chat.png"></div>
+<form ng-submit="addMessage()" name="ChatMsg">
+<table>
+<tr>
+<td>Chat Text{{max}}</td>
+<td>
+<input type="text1" ng-model="message"/>
+<span class="count" ng-bind="max-message.length">340</span>
+</td>
+<td>
+<button ng-disabled="message.length>340 || message.length==0" class="btn btn-info">Send Message</button>
+</td>
+</tr>
+</table>
+</form>
+<p ng-repeat="message in messages|orderBy:'time':true">
+<time>{{message.time|date:HH:MM}}</time>
+<span>{{message.message}}</span>
+</p>
+</div>

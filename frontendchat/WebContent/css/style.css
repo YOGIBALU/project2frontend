@@ -1,0 +1,49 @@
+
+
+.Blog_title{
+	font-family:"Comic Sans MS";
+	font-size:4vw;
+	color:violet;
+	text-align: center;
+    animation-name:Blogtitle;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.images
+{
+	 background-color:lightbrown;
+    width: 100%;
+    padding: 20px;
+}
+.imgs
+{
+	
+	 background-color:lightblue;
+    width: 100%;
+    padding: 20px;
+}
+.fakesimg1
+{
+	background-color:lightgreen;
+    width: 100%;
+    padding: 20px;
+}
+.Forum_title{
+	font-family:"Comic Sans MS";
+	font-size:4vw;
+	color:pink;
+	text-align: center;
+    animation-name:Forumtitle;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.fakesimg
+{
+	background-color:lightgreen;
+    width: 100%;
+    padding: 20px;
+}
